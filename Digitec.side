@@ -1,0 +1,150 @@
+{
+  "id": "4004e67c-15a0-4668-b19a-67cd4607774d",
+  "version": "2.0",
+  "name": "Digitec",
+  "url": "https://www.digitec.ch",
+  "tests": [{
+    "id": "bd1ea8db-2a6a-4c67-ac82-59047ff41754",
+    "name": "Testfall",
+    "commands": [{
+      "id": "a62a9d31-f027-439a-af18-8ae3d4116df7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d34144c4-e9f1-4211-93af-2aba0a31d07d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1246x560",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95a9471c-9fe3-412c-b44c-f6c6576d0210",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='pageHead']/header/div[3]/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Iphone 15"
+    }, {
+      "id": "7f2ed488-83e1-4e85-9a16-bb2cd3048328",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-67d36091-0",
+      "targets": [
+        ["css=.sc-67d36091-0", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='pageHead']/header/div[3]/form/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d229740-c2dd-461d-b253-b9ec078ae85d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-67d36091-0",
+      "targets": [
+        ["css=.sc-67d36091-0", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='pageHead']/header/div[3]/form/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cb3896a-6231-4882-8702-2a844cf40f1b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-67d36091-0",
+      "targets": [
+        ["css=.sc-67d36091-0", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='pageHead']/header/div[3]/form/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "047aab7f-6e14-4347-9dc6-e40a6b68149c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,469)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2efb0cab-9143-4d68-8200-eb210d4ea59b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-b3dc936d-1:nth-child(1) > .sc-d9c28d7f-0",
+      "targets": [
+        ["css=.sc-b3dc936d-1:nth-child(1) > .sc-d9c28d7f-0", "css:finder"],
+        ["xpath=//div[@id='productListingContainer']/div[4]/article/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/s1/product/apple-iphone-15-128-gb-black-610-sim-esim-48-mpx-5g-smartphones-38606678')]", "xpath:href"],
+        ["xpath=//article/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48fdd307-1c45-443c-a44d-24610ede0f9f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-b3dc936d-1:nth-child(1) > .sc-d9c28d7f-0",
+      "targets": [
+        ["css=.sc-b3dc936d-1:nth-child(1) > .sc-d9c28d7f-0", "css:finder"],
+        ["xpath=//div[@id='productListingContainer']/div[4]/article/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/s1/product/apple-iphone-15-128-gb-black-610-sim-esim-48-mpx-5g-smartphones-38606678')]", "xpath:href"],
+        ["xpath=//article/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1a73f87-7042-4ae5-b3bf-e9dd2ee27562",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-b3dc936d-1:nth-child(1) > .sc-d9c28d7f-0",
+      "targets": [
+        ["css=.sc-b3dc936d-1:nth-child(1) > .sc-d9c28d7f-0", "css:finder"],
+        ["xpath=//div[@id='productListingContainer']/div[4]/article/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/s1/product/apple-iphone-15-128-gb-black-610-sim-esim-48-mpx-5g-smartphones-38606678')]", "xpath:href"],
+        ["xpath=//article/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5211fc9e-5a71-44f6-b712-56ec0e96b918",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.sc-d963cb62-0",
+      "targets": [
+        ["css=.sc-d963cb62-0", "css:finder"],
+        ["xpath=//main[@id='pageContent']/div/div/div/div/div[2]/div/div/div/h1/span", "xpath:idRelative"],
+        ["xpath=//h1/span", "xpath:position"]
+      ],
+      "value": "iPhone 15"
+    }, {
+      "id": "1557cbe3-57fd-4d26-a9de-3b079d2b26fe",
+      "comment": "Preis muss stimmen",
+      "command": "assertText",
+      "target": "css=.sc-36b31da0-2:nth-child(1) .sc-d1e65a14-2:nth-child(2) .sc-ada0783-0:nth-child(1)",
+      "targets": [
+        ["css=.sc-36b31da0-2:nth-child(1) .sc-d1e65a14-2:nth-child(2) .sc-ada0783-0:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id=':r5:']/div/div/div/table/tbody/tr[2]/td[2]/div/div/div/span/span", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/div/div/div/span/span", "xpath:position"]
+      ],
+      "value": "128 GB"
+    }]
+  }],
+  "suites": [{
+    "id": "a7be7724-34de-46b7-ba27-e8590cc321d8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bd1ea8db-2a6a-4c67-ac82-59047ff41754"]
+  }],
+  "urls": ["https://www.digitec.ch/"],
+  "plugins": []
+}

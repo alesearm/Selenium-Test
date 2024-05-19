@@ -1,0 +1,309 @@
+{
+  "id": "5c9bf4c4-53e1-4ebd-a2e8-a170ab0086c2",
+  "version": "2.0",
+  "name": "Migros Online Shop",
+  "url": "https://www.migros.ch",
+  "tests": [{
+    "id": "00659ae8-dce3-49af-bdfe-c446bde5d99a",
+    "name": "Haribo Einkauf online",
+    "commands": [{
+      "id": "4ee8d45d-73a5-44a7-bdf2-aa98780ca2b5",
+      "comment": "",
+      "command": "open",
+      "target": "/de",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d996e50-3da2-4d71-8a0b-a5b75c6078b2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff2f8680-aeee-4c58-afe5-9c5a428c2990",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=autocompleteSearchInput",
+      "targets": [
+        ["id=autocompleteSearchInput", "id"],
+        ["css=#autocompleteSearchInput", "css:finder"],
+        ["xpath=//input[@id='autocompleteSearchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='menu-topnav']/div/app-topnav/mo-search-autocomplete/form/div/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a1a36aa-c772-40e9-9d2b-d9a11fc83ce3",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocompleteSearchInput",
+      "targets": [
+        ["id=autocompleteSearchInput", "id"],
+        ["css=#autocompleteSearchInput", "css:finder"],
+        ["xpath=//input[@id='autocompleteSearchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='menu-topnav']/div/app-topnav/mo-search-autocomplete/form/div/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d98d865-654e-42b8-9917-684f613cb7fe",
+      "comment": "",
+      "command": "type",
+      "target": "id=autocompleteSearchInput",
+      "targets": [
+        ["id=autocompleteSearchInput", "id"],
+        ["css=#autocompleteSearchInput", "css:finder"],
+        ["xpath=//input[@id='autocompleteSearchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='menu-topnav']/div/app-topnav/mo-search-autocomplete/form/div/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Haribo"
+    }, {
+      "id": "fbd29787-7f5e-4111-9cf1-60f9e758adb6",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=autocompleteSearchInput",
+      "targets": [
+        ["id=autocompleteSearchInput", "id"],
+        ["css=#autocompleteSearchInput", "css:finder"],
+        ["xpath=//input[@id='autocompleteSearchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='menu-topnav']/div/app-topnav/mo-search-autocomplete/form/div/mat-form-field/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7a5b20db-4f62-4a37-9ad4-55b0f971127d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#\\39 374085-add > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=#\\39 374085-add > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//button[@id='9374085-add']/span[4]", "xpath:idRelative"],
+        ["xpath=//lsp-add-to-basket/div/button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d7055ff-806f-449c-b7ec-2f6b245ec847",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#\\39 374085-add > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=#\\39 374085-add > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//button[@id='9374085-add']/span[4]", "xpath:idRelative"],
+        ["xpath=//lsp-add-to-basket/div/button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b87a632-57bd-453f-95ba-0f42dd06aad1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\39 374085-add > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=#\\39 374085-add > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//button[@id='9374085-add']/span[4]", "xpath:idRelative"],
+        ["xpath=//lsp-add-to-basket/div/button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a8c9056-8265-48ae-af4c-9622d158e3ce",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#\\39 374085-plus > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=#\\39 374085-plus > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//button[@id='9374085-plus']/span[4]", "xpath:idRelative"],
+        ["xpath=//button[2]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1b07e42-7dad-4240-9aef-bf302255f41c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#\\39 374085-plus > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=#\\39 374085-plus > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//button[@id='9374085-plus']/span[4]", "xpath:idRelative"],
+        ["xpath=//button[2]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f391e97f-1ca5-4c2f-b84a-20298d73fa4e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\31 00095871 .show-product-image > .ng-star-inserted > .ng-star-inserted",
+      "targets": [
+        ["css=#\\31 00095871 .show-product-image > .ng-star-inserted > .ng-star-inserted", "css:finder"],
+        ["xpath=(//img[@alt='Haribo online kaufen'])[2]", "xpath:img"],
+        ["xpath=//article[@id='100095871']/div/div/a/mo-product-image-universal/img", "xpath:idRelative"],
+        ["xpath=//div/div/a/mo-product-image-universal/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e26864b-fbe5-40e8-b983-e3d1776c599b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfbea094-fe60-4160-b522-3d7e8ffd2815",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=100015407-name",
+      "targets": [
+        ["id=100015407-name", "id"],
+        ["css=#\\31 00015407-name", "css:finder"],
+        ["xpath=//span[@id='100015407-name']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/mo-product-detail-page/div[2]/div/mo-product-detail-recommender/div/m-slider-simple/m-slider-container/div/div[2]/div[2]/ul/li[6]/mo-product-slider-item/article/div/div/a[2]/span[2]/lsp-product-name/div/span", "xpath:idRelative"],
+        ["xpath=//li[6]/mo-product-slider-item/article/div/div/a[2]/span[2]/lsp-product-name/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb851a8c-6701-41ed-8725-272c8b08561c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=100015407-name",
+      "targets": [
+        ["id=100015407-name", "id"],
+        ["css=#\\31 00015407-name", "css:finder"],
+        ["xpath=//span[@id='100015407-name']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/mo-product-detail-page/div[2]/div/mo-product-detail-recommender/div/m-slider-simple/m-slider-container/div/div[2]/div[2]/ul/li[6]/mo-product-slider-item/article/div/div/a[2]/span[2]/lsp-product-name/div/span", "xpath:idRelative"],
+        ["xpath=//li[6]/mo-product-slider-item/article/div/div/a[2]/span[2]/lsp-product-name/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f11a19cf-cdc5-4365-8ffd-fb8f78822918",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tab-content-fade:nth-child(1) .ng-star-inserted:nth-child(3)",
+      "targets": [
+        ["css=.tab-content-fade:nth-child(1) .ng-star-inserted:nth-child(3)", "css:finder"],
+        ["xpath=//main[@id='main']/div/mo-product-detail-page/div/div[3]/mo-product-detail-information/mo-tab/div/div/div/mo-product-detail-main-information/dl/mo-product-information-item[3]", "xpath:idRelative"],
+        ["xpath=//mo-product-information-item[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95eecd77-9ece-46de-aedc-c7b642eb90b5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#basket-product-9374085 .column .mat-mdc-focus-indicator",
+      "targets": [
+        ["css=#basket-product-9374085 .column .mat-mdc-focus-indicator", "css:finder"],
+        ["xpath=//li[@id='basket-product-9374085']/article/div/div/a/span[3]", "xpath:idRelative"],
+        ["xpath=//div/a/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60b8a918-9b68-4caa-b5d1-e092f9f9a357",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#basket-product-9374085 .column .mat-mdc-focus-indicator",
+      "targets": [
+        ["css=#basket-product-9374085 .column .mat-mdc-focus-indicator", "css:finder"],
+        ["xpath=//li[@id='basket-product-9374085']/article/div/div/a/span[3]", "xpath:idRelative"],
+        ["xpath=//div/a/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fb2c17d-3599-4f6d-931e-d705927d8b46",
+      "comment": "Produktionsland sollte aus EU sein",
+      "command": "verifyText",
+      "target": "id=product-detail-100095871-origin",
+      "targets": [
+        ["id=product-detail-100095871-origin", "id"],
+        ["css=#product-detail-100095871-origin", "css:finder"],
+        ["xpath=//dd[@id='product-detail-100095871-origin']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/mo-product-detail-page/div/div[3]/mo-product-detail-information/mo-tab/div/div/div/mo-product-detail-main-information/dl/mo-product-information-item[3]/dd", "xpath:idRelative"],
+        ["xpath=//mo-product-information-item[3]/dd", "xpath:position"],
+        ["xpath=//dd[contains(.,'Europäische Union')]", "xpath:innerText"]
+      ],
+      "value": "Europäische Union"
+    }, {
+      "id": "0f6aaaef-5b21-4a25-b2af-4ca36467dd57",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#\\39 374085-plus > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=#\\39 374085-plus > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//button[@id='9374085-plus']/span[4]", "xpath:idRelative"],
+        ["xpath=//button[2]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e06216c1-aa36-4b3b-b1d5-181026ca1ecb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#\\39 374085-plus > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=#\\39 374085-plus > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//button[@id='9374085-plus']/span[4]", "xpath:idRelative"],
+        ["xpath=//button[2]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87df94ed-29a7-4023-bbfa-5830e228cebf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.toggle-like > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.toggle-like > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//main[@id='main']/div/mo-product-detail-page/div/div/div[2]/div[2]/mo-product-detail-core-information/div/div[5]/mo-add-remove-favorite/div/button/span[4]", "xpath:idRelative"],
+        ["xpath=//mo-add-remove-favorite/div/button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a0d3e39-784e-4d57-8c05-f57be9a7cd5b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.toggle-like > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=.toggle-like > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//main[@id='main']/div/mo-product-detail-page/div/div/div[2]/div[2]/mo-product-detail-core-information/div/div[5]/mo-add-remove-favorite/div/button/span[4]", "xpath:idRelative"],
+        ["xpath=//mo-add-remove-favorite/div/button/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33bd1848-e0ab-43df-b0c7-268fbb1b0876",
+      "comment": "Einzelpreis des Produkts muss stimmen im Warenkorb.",
+      "command": "verifyText",
+      "target": "id=100095871-current-price",
+      "targets": [],
+      "value": "2.40"
+    }, {
+      "id": "3a13eb4f-28dc-4b70-831f-6892fc21dacf",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\39 374085-plus > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=#\\39 374085-plus > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//button[@id='9374085-plus']/span[4]", "xpath:idRelative"],
+        ["xpath=//button[2]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "866b2db1-09d5-4cc0-ab9d-5618854bd803",
+      "comment": "Gesamtpreis (Kalkulation) muss stimmen ( 2 Stuck)",
+      "command": "assertText",
+      "target": "id=basket-product-9374085-current-price",
+      "targets": [
+        ["id=basket-product-9374085-current-price", "id"],
+        ["css=#basket-product-9374085-current-price", "css:finder"],
+        ["xpath=//span[@id='basket-product-9374085-current-price']", "xpath:attributes"],
+        ["xpath=//li[@id='basket-product-9374085']/article/div/div/a/span[2]/div/lsp-product-current-price/span", "xpath:idRelative"],
+        ["xpath=//lsp-product-current-price/span", "xpath:position"]
+      ],
+      "value": "4.80"
+    }]
+  }],
+  "suites": [{
+    "id": "47059521-8e19-4a24-b484-f4e13c090fa8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["00659ae8-dce3-49af-bdfe-c446bde5d99a"]
+  }],
+  "urls": ["https://www.migros.ch/"],
+  "plugins": []
+}

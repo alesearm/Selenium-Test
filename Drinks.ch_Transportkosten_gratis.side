@@ -1,0 +1,155 @@
+{
+  "id": "d576742e-278f-4c45-961d-87b4819fb0e0",
+  "version": "2.0",
+  "name": "Drinks.ch",
+  "url": "https://www.drinks.ch",
+  "tests": [{
+    "id": "4b32bba3-45fa-4a10-9692-42551250663e",
+    "name": "Transportkosten_gratis",
+    "commands": [{
+      "id": "c5b1da7c-5da7-4a0a-83cb-4a3481e5b0e4",
+      "comment": "",
+      "command": "open",
+      "target": "/de/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7837b942-2c44-40d4-b637-cca942b2bd0e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1246x560",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83d31d78-b869-4318-843b-f74736a3cf22",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-4 .w-1\\/2:nth-child(1) .line-clamp",
+      "targets": [
+        ["css=.mb-4 .w-1\\/2:nth-child(1) .line-clamp", "css:finder"],
+        ["xpath=//h3/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Centenario Fundacion 20 Años Sistema Solera Reserva Especial Rum 70cl')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1199fd76-d7b5-45da-aa6d-abdd40e1d7d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-10:nth-child(3)",
+      "targets": [
+        ["css=.w-10:nth-child(3)", "css:finder"],
+        ["xpath=//div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf205226-42bc-4e7f-95b1-fe3f3bc1cbd3",
+      "comment": "",
+      "command": "click",
+      "target": "id=product-add-to-cart",
+      "targets": [
+        ["id=product-add-to-cart", "id"],
+        ["css=#product-add-to-cart", "css:finder"],
+        ["xpath=//button[@id='product-add-to-cart']", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'In den Warenkorb')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78b3a7c0-a121-4680-b621-e7cff962ce30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ml-1 > .block",
+      "targets": [
+        ["css=.ml-1 > .block", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/de/cart')]", "xpath:href"],
+        ["xpath=//div/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2a0f926-318d-4d93-9471-3571133cd0e0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63f1b664-bcc7-4603-8fe6-f80337233595",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pt-4",
+      "targets": [
+        ["css=.pt-4", "css:finder"],
+        ["xpath=//div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99432fb6-8530-4a2a-ba91-8612775ec4f1",
+      "comment": "Gesamtpreiss muss über 80 sein)",
+      "command": "assertText",
+      "target": "css=.font-semibold > .leading-tight",
+      "targets": [
+        ["css=.font-semibold > .leading-tight", "css:finder"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": "CHF 129.90"
+    }, {
+      "id": "339feb7c-4945-414c-8c7c-5b43fc089824",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5626270-03ab-459a-b06a-833fe7e11e7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sm\\3Aw-auto",
+      "targets": [
+        ["css=.sm\\3Aw-auto", "css:finder"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddd4db65-57b3-4724-9b0f-c09155f5caf9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,636)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ef8092c-c55f-48ef-80e7-017a8692ff88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .price > .price",
+      "targets": [
+        ["css=.active .price > .price", "css:finder"],
+        ["xpath=//div[@id='checkout-shipping-method-load']/table/tbody/tr/td[2]/span/span", "xpath:idRelative"],
+        ["xpath=//td[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "152426d3-bbb5-4ab6-9956-84db3ca1346a",
+      "comment": "Transportkosten müssen 0 sein",
+      "command": "assertText",
+      "target": "css=.active .price > .price",
+      "targets": [
+        ["css=.active .price > .price", "css:finder"],
+        ["xpath=//div[@id='checkout-shipping-method-load']/table/tbody/tr/td[2]/span/span", "xpath:idRelative"],
+        ["xpath=//td[2]/span/span", "xpath:position"]
+      ],
+      "value": "Fr. 0.00"
+    }]
+  }],
+  "suites": [{
+    "id": "996af9d1-cfde-43a5-a13c-9f4eb08f8f12",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4b32bba3-45fa-4a10-9692-42551250663e"]
+  }],
+  "urls": ["https://www.drinks.ch/"],
+  "plugins": []
+}
